@@ -36,3 +36,8 @@ document.getElementById('prev').addEventListener('click', function() {
 ```
 
 *Note: For testing purposes you can use the application key `919c37c3a2c798eea5b9`. But please note that other slide deck users could trigger events that control your slides.*
+
+## Example
+
+* [Slides](http://pusher-community.github.io/pusher-revealjs-remote/example/slides/)
+* [Remote Control](http://pusher-community.github.io/pusher-revealjs-remote/example/remote/)
