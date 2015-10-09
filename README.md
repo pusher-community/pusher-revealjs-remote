@@ -30,7 +30,7 @@ For your remote control you'll need elements to click/touch in order to move thr
 
 You can find the code for a really simple remote example here:
 
-* [Remote Control example](./blob/master/example/remote/index.html)
+* [Remote Control example](./example/remote/index.html)
 
 Here are the details:
 
