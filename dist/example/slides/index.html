@@ -1,0 +1,31 @@
+<head>
+  <link rel="stylesheet" href="./bower_components/reveal.js/css/reveal.css">
+  <link rel="stylesheet" href="./bower_components/reveal.js/css/theme/black.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+      <div class="slides">
+          <section>Single Horizontal Slide</section>
+          <section>
+              <section>Vertical Slide 1</section>
+              <section>Vertical Slide 2</section>
+          </section>
+      </div>
+  </div>
+  
+  <script src="./bower_components/reveal.js/js/reveal.js"></script>
+  <script src="//js.pusher.com/3.0/pusher.min.js"></script>
+  <script src="../../src/client-slides/index.js"></script>
+  <script>
+  Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true
+  });
+  
+  var pusher = new Pusher('919c37c3a2c798eea5b9');
+
+  var controller = new PusherRevealSlideController(Reveal, pusher);
+  </script>
+</body>  
