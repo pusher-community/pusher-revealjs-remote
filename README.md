@@ -9,7 +9,7 @@ Within your reveal.js slide deck:
 ```html
 <script src="path/to/reveal.js"></script>
 <script src="//js.pusher.com/3.0/pusher.min.js"></script>
-<script src="path/to/pusher-revealjs-slides.js"></script>
+<script src="//pusher-community.github.io/pusher-revealjs-remote/js/pusher-revealjs-slides.js"></script>
 <script>
 var pusher = new Pusher('YOUR_APP_KEY');
 var pusherRemote = new PusherRevealSlideController(Reveal, pusher);
@@ -20,7 +20,7 @@ For your remote control you'll need elements to click/touch in order to move thr
 
 ```html
 <script src="//js.pusher.com/3.0/pusher.min.js"></script>
-<script src="path/to/pusher-revealjs-remote.js"></script>
+<script src="//pusher-community.github.io/pusher-revealjs-remote/js/pusher-revealjs-remote.js"></script>
 <script>
 var pusher = new Pusher('YOUR_APP_KEY');
 
